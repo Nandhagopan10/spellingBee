@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#1b1b32 ;
+  }
+
+  body {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+  }
+
+  .all {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  #inp {
+    margin-top: 30px;
+    width: 20rem;
+    padding: 7px;
+    background-color:#fff;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  #btn {
+    width: 20rem;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    background-color: aqua;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .btn2 {
+    width: 150px;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 100px 0 100px;
+    background-color: rgb(234, 130, 65);
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: inset;
+  }
